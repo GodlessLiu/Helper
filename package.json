@@ -1,0 +1,18 @@
+{
+  "name": "@helper",
+  "version": "0.0.1",
+  "description": "A tool to generate a helper guide for your project",
+  "main": "index.js",
+  "scripts": {
+  },
+   "keywords": [
+    "helper",
+    "guide",
+    "tool",
+    "vue",
+    "starter",
+    "starter helper"
+  ],
+  "author": "Hilary Liu<2788370451@qq.com>",
+  "license": "MIT"
+}

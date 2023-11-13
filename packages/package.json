@@ -1,0 +1,40 @@
+{
+  "name": "@helper/core",
+  "version": "0.0.1",
+  "description": "A tool to help you generate a project helper",
+  "scripts": {
+    "build": "vite build"
+  },
+  "main": "./dist/helper.es.js",
+  "module": "./dist/helper.es.js",
+  "types": "./dist/index.d.ts",
+  "exports":{
+    ".":{
+      "import":{
+        "default":"./dist/helper.es.js",
+        "types":"./dist/index.d.ts"
+      },
+      "require":{
+        "default":"./dist/helper.cjs.js",
+        "types":"./dist/index.d.ts"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "helper",
+    "guide",
+    "tool",
+    "vue",
+    "starter",
+    "starter helper"
+  ],
+  "author": "Hilary Liu<2788370451@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.9.0",
+    "vite": "^4.5.0"
+  }
+}
