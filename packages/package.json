@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A tool to help you generate a project helper",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build -w"
   },
   "main": "./dist/helper.es.js",
   "module": "./dist/helper.es.js",

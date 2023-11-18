@@ -4,13 +4,13 @@ import {onMounted} from "vue"
 
 onMounted(() => {
   new Helper({
-    name:"laf"
+    selector: "#app",
   })
 })
 </script>
 
 <template>
-  <div>
+  <div class="test"> 
     main
   </div>
 </template>
